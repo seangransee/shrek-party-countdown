@@ -13,7 +13,7 @@
     "build": "rm -rf docs && react-scripts build && mv build docs && echo shrekpartycountdown.com > docs/CNAME",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "npm run build && git commit -am 'publish' && git push origin master"
+    "deploy": "npm run build && git add . && git commit -am 'publish' && git push origin master"
   },
   "eslintConfig": {
     "extends": "react-app"
