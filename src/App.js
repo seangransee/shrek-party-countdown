@@ -3,7 +3,7 @@ import "./App.css"
 import moment from "moment"
 
 const renderCountdown = () => {
-  const daysLeft = Math.floor(
+  const daysLeft = Math.round(
     moment.duration(moment("2019-05-18T20:00:00-0500").diff(moment())).asDays()
   )
 
