@@ -8,13 +8,17 @@ body {
 
 .countdown {
   color: #bbf78f;
-  font-family: "Arial Black", Gadget, sans-serif;
+  font-family: Arial Black, Gadget, sans-serif;
   font-size: 36px;
-  text-shadow: black 2px 2px;
+  text-shadow: #000 2px 2px;
+  position: absolute;
+  bottom: 5%;
+  text-align: center;
+  width: 100%;
 }
 
 .count {
-  font-size: 120px;
+  font-size: 72px;
 }
 
 div {
